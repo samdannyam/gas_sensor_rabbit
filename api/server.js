@@ -6,7 +6,7 @@ import compression from 'compression';
 import routes from 'api/routes';
 import { startAmqp } from '../module/connection.js'
 
-const port = process.env.PORT || 3553;
+const port = process.env.PORT || 3554;
 
 const server = express();  
 server.use(cors());
